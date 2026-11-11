@@ -1,41 +1,67 @@
 # Kénael Martini
 
-First-year **Global BBA student at emlyon business school** (expected 2030), independently strengthening my mathematics and programming background through coursework at **CNAM** and quantitative research in Python.
+First-year **Global BBA student at emlyon business school**, complementing my education with mathematics coursework at **CNAM** and independent quantitative research in Python.
 
-My main interests are **quantitative research, systematic trading and market microstructure**. I focus on learning how to formulate falsifiable hypotheses, check data integrity, assess predictive signals and avoid misleading backtests.
+Interested in **quantitative research, systematic trading and financial markets**, with a focus on rigorous research methodologies, statistical analysis and reproducible backtesting.
 
-## Current focus — independent Python research
+## Current Research
 
-### [Robustness of Time-Series Momentum Across Asset Classes](https://github.com/KenaelMartini/time-series-momentum-research) · In progress
+### [Time-Series Momentum Research](https://github.com/KenaelMartini/time-series-momentum-research)
+**Independent Python Research | In Progress**
 
-This is my current, personally coded research project, and the best representation of my developing technical skills.
+Investigating the predictive properties and robustness of Time-Series Momentum across **16 ETFs and four asset classes**.
 
-- **Universe:** 16 USD-listed ETFs across equities, commodities, fixed income and currency exposures.
-- **Research question:** Does past performance contain information about the direction of next-month returns?
-- **Design:** A predefined 12-month reference signal, 3- and 6-month robustness lookbacks, and chronological Train (2010–2017), Validation (2018–2021) and reserved Test (2022–2025) periods.
-- **Implemented so far:** Data validation, monthly signals, forward-return alignment, predictive classification metrics, simple baselines and reusable sample-preparation functions.
-- **Current findings:** Preliminary Train and Validation results do not demonstrate reliable directional predictive skill. Strategy construction, economic backtesting, formal inference and final held-out evaluation are **not yet complete**.
+- Developing Python research pipelines for financial data validation, momentum signals and statistical evaluation.
+- Implementing chronological Train/Validation/Test separation, predictive metrics and baseline comparisons.
+- Evaluating 3-, 6- and 12-month momentum horizons, with explicit safeguards against look-ahead bias, data snooping and overfitting.
+- Preliminary findings show limited directional predictive ability; economic backtesting and final out-of-sample evaluation remain in development.
 
-**Research objective:** Develop methodological and programming skills through a transparent, reproducible process — not claim alpha before the evidence supports it.
+**Objective:** Develop rigorous quantitative research and programming skills through independent implementation and reproducible experimentation.
 
-## Other projects
+## Previous Projects
 
-These earlier projects used **AI-assisted development**. I defined the objectives and requirements and reviewed the research assumptions and results; they are not presented as independently authored code.
+### [Macro & Financial Markets Terminal](https://github.com/KenaelMartini/macro-financial-markets-terminal)
+**Python · FastAPI · WebSockets · SQLite**
 
-- **[Multi-Asset Portfolio Analysis](https://github.com/KenaelMartini/multi-asset-portfolio-analysis)** — Nine-asset allocation research with quarterly rebalancing, transaction costs, and risk/performance analysis.
-- **[Macro & Financial Markets Terminal](https://github.com/KenaelMartini/macro-financial-markets-terminal)** — FastAPI-based prototype consolidating central-bank communication, financial news and research workflows.
-- **[Momentum Strategy Research](https://github.com/KenaelMartini/momentum-strategy-research)** — Earlier, AI-assisted systematic strategy research environment; retained as a learning-stage project, with methodological limitations documented in its repository.
+Financial research terminal integrating **8 central banks**, **11 news feeds**, **25+ API routes**, real-time WebSocket delivery, **4 supervised background workers** and SQLite persistence.
 
-## Education and tools
+### [Momentum Strategy Research](https://github.com/KenaelMartini/momentum-strategy-research)
+**Python · Systematic Trading · Backtesting**
+
+Research environment covering **79 US equities and 8 futures**, combining vectorized and event-driven backtesting, 2019–2024 out-of-sample validation, transaction-cost stress testing and automated tests.
+
+### [Multi-Asset Portfolio Analysis](https://github.com/KenaelMartini/multi-asset-portfolio-analysis)
+**Python · Portfolio Analytics · Risk Management**
+
+Nine-asset allocation backtest covering **2017–2026**, with quarterly rebalancing, 5 bps transaction costs and **20+ performance and risk metrics**, including Sharpe ratio, VaR, CVaR and maximum drawdown.
+
+## Technical Skills
+
+**Programming:** Python, pandas, NumPy, Matplotlib, Git, Jupyter
+
+**Quantitative:** Statistical Analysis, Momentum Research, Backtesting, Portfolio Analysis, Risk Metrics
+
+**Additional Tools:** FastAPI, SQLite, WebSockets, pytest, LSEG Workspace, Bloomberg Terminal
+
+## Development Approach
+
+Earlier projects were developed through **AI-assisted workflows**, with responsibility for research objectives, assumptions, validation and interpretation.
+
+My current TSMOM research is **personally coded**, focusing on developing independent technical capabilities and a rigorous understanding of quantitative research.
+
+## Education & Certifications
 
 - **emlyon business school** — Global BBA, expected 2030
-- **Conservatoire national des arts et métiers (CNAM)** — MVA003, Mathematical Tools for Computer Science (2026–2027)
-- **Tools:** Python, pandas, NumPy, Matplotlib, yfinance, Git; LSEG Workspace (certification completed in 2026)
+- **CNAM** — MVA003, Mathematical Tools for Computer Science (2026–2027)
+- **LSEG Workspace Certification** — 2026
+- **Bloomberg Market Concepts** — In Progress
 
-I am interested in **early insight programs in quantitative research and trading**, as well as relevant finance internships in 2027.
+## Interests & Contact
 
-## Contact
+Quantitative Research · Systematic Trading · Market Making
 
-[LinkedIn](https://fr.linkedin.com/in/kenael-martini) · [Email](mailto:kenaelmartini@gmail.com)
+Seeking **Early Insight Programs** and finance internship opportunities in 2027.
 
-_Projects are independent educational research, not financial advice or a representation of live trading performance._
+**[LinkedIn](https://fr.linkedin.com/in/kenael-martini)** · **[GitHub](https://github.com/KenaelMartini)**
+
+*Independent educational research. Historical results do not imply future performance.*
