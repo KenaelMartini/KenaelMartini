@@ -1,39 +1,41 @@
 # Kénael Martini
 
-Incoming Global BBA student at **emlyon business school**, building Python projects at the intersection of financial markets, macro research and portfolio analysis.
+First-year **Global BBA student at emlyon business school** (expected 2030), independently strengthening my mathematics and programming background through coursework at **CNAM** and quantitative research in Python.
 
-I am seeking a **finance internship, ideally in markets or trading, from May to July 2027**.
+My main interests are **quantitative research, systematic trading and market microstructure**. I focus on learning how to formulate falsifiable hypotheses, check data integrity, assess predictive signals and avoid misleading backtests.
 
-## Selected work
+## Current focus — independent Python research
 
-### [Macro & Financial Markets Terminal](https://github.com/KenaelMartini/macro-financial-markets-terminal)
+### [Robustness of Time-Series Momentum Across Asset Classes](https://github.com/KenaelMartini/time-series-momentum-research) · In progress
 
-FastAPI research terminal monitoring **8 central banks** and **11 financial-news feeds**, with **25+ API routes**, a WebSocket feed, **4 supervised background workers** and SQLite history.
+This is my current, personally coded research project, and the best representation of my developing technical skills.
 
-### [Momentum Strategy Research](https://github.com/KenaelMartini/momentum-strategy-research)
+- **Universe:** 16 USD-listed ETFs across equities, commodities, fixed income and currency exposures.
+- **Research question:** Does past performance contain information about the direction of next-month returns?
+- **Design:** A predefined 12-month reference signal, 3- and 6-month robustness lookbacks, and chronological Train (2010–2017), Validation (2018–2021) and reserved Test (2022–2025) periods.
+- **Implemented so far:** Data validation, monthly signals, forward-return alignment, predictive classification metrics, simple baselines and reusable sample-preparation functions.
+- **Current findings:** Preliminary Train and Validation results do not demonstrate reliable directional predictive skill. Strategy construction, economic backtesting, formal inference and final held-out evaluation are **not yet complete**.
 
-Reproducible research pipeline covering **79 US equities and 8 futures**, with vectorised and event-driven backtests, 2019–2024 out-of-sample validation and transaction-cost stress tests.
+**Research objective:** Develop methodological and programming skills through a transparent, reproducible process — not claim alpha before the evidence supports it.
 
-### [Multi-Asset Portfolio Analysis](https://github.com/KenaelMartini/multi-asset-portfolio-analysis)
+## Other projects
 
-Nine-asset allocation backtest over 2017–2026 with quarterly rebalancing, 5 bps transaction costs and more than 20 performance, drawdown and tail-risk metrics.
+These earlier projects used **AI-assisted development**. I defined the objectives and requirements and reviewed the research assumptions and results; they are not presented as independently authored code.
 
-## Toolkit
+- **[Multi-Asset Portfolio Analysis](https://github.com/KenaelMartini/multi-asset-portfolio-analysis)** — Nine-asset allocation research with quarterly rebalancing, transaction costs, and risk/performance analysis.
+- **[Macro & Financial Markets Terminal](https://github.com/KenaelMartini/macro-financial-markets-terminal)** — FastAPI-based prototype consolidating central-bank communication, financial news and research workflows.
+- **[Momentum Strategy Research](https://github.com/KenaelMartini/momentum-strategy-research)** — Earlier, AI-assisted systematic strategy research environment; retained as a learning-stage project, with methodological limitations documented in its repository.
 
-**Python · FastAPI · pandas · NumPy · Matplotlib · SQLite · WebSockets · pytest · Git**
+## Education and tools
 
-## Development approach
+- **emlyon business school** — Global BBA, expected 2030
+- **Conservatoire national des arts et métiers (CNAM)** — MVA003, Mathematical Tools for Computer Science (2026–2027)
+- **Tools:** Python, pandas, NumPy, Matplotlib, yfinance, Git; LSEG Workspace (certification completed in 2026)
 
-I use generative AI tools as engineering accelerators for specification, implementation, debugging and documentation. I direct project objectives and requirements, evaluate and integrate generated code, and remain responsible for financial assumptions, testing, validation and final outputs.
-
-## Education & availability
-
-- Global BBA, **emlyon business school** — expected 2030
-- Based in Lyon, France
-- Available for an internship from **May to July 2027**
+I am interested in **early insight programs in quantitative research and trading**, as well as relevant finance internships in 2027.
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/k%C3%A9nael-martini-bbb1a9306/) · [GitHub](https://github.com/KenaelMartini)
+[LinkedIn](https://fr.linkedin.com/in/kenael-martini) · [Email](mailto:kenaelmartini@gmail.com)
 
-> These repositories document independent educational research. They do not constitute financial advice.
+_Projects are independent educational research, not financial advice or a representation of live trading performance._
